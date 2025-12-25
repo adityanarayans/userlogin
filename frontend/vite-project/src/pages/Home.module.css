@@ -1,0 +1,110 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 320px;
+}
+
+/* EDIT BAR ABOVE CARD */
+.editBar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 6px;
+}
+
+.editBtn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* CARD */
+.card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  background: #fff;
+  text-align: center;
+}
+
+/* SEARCH */
+.searchBox {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* SEARCH RESULT */
+.searchList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 8px 0;
+  border: 1px solid #ddd;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.searchItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.searchItem img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* PROFILE */
+.profileImg {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.nameInput {
+  margin-top: 10px;
+  padding: 6px;
+  width: 90%;
+}
+
+/* SAVE */
+.saveBtn {
+  margin-top: 10px;
+  background: green;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* LOGOUT */
+.logoutBtn {
+  margin-top: 12px;
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+
